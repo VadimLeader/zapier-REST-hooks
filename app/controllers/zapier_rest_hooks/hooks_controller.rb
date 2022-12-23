@@ -15,8 +15,10 @@ module ZapierRestHooks
     def destroy
       hook = Hook.find_by(id: params[:id]) if params[:id]
       hook = Hook.find_by(subscription_url: params[:subscription_url]).destroy if hook.nil? && params[:subscription_url]
-      Rails.logger.info "Destroying REST hook: #{hook.inspect}"
-      hook.destroy
+      if hook.present?
+        Rails.logger.info "Destroying REST hook: #{hook.inspect}"
+        hook.destroy
+      end
       head :ok
     end
 
