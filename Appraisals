@@ -19,3 +19,8 @@ appraise 'rails-6.1' do
   gem 'rails', '6.1.7'
   gem 'sqlite3', '1.4.1'
 end
+
+appraise 'rails-7.2' do
+  gem 'rails', '7.2.2'
+  gem 'sqlite3', '1.4.1'
+end
