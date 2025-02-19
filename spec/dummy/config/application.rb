@@ -10,7 +10,8 @@ require 'action_view/railtie'
 require 'sprockets/railtie'
 # require 'rails/test_unit/railtie'
 
-Bundler.require(*Rails.groups)
+# puts Rails.groups.to_s
+# Bundler.require(*Rails.groups)
 require 'zapier_rest_hooks'
 
 module Dummy

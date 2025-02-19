@@ -16,3 +16,10 @@ appraise 'rails-6.0' do
   gem 'concurrent-ruby', '1.3.4'
   gem 'sprockets', '3.7.2'
 end
+
+appraise 'rails-6.1' do
+  gem 'rails', '6.1.7'
+  gem 'sqlite3', '1.4.1'
+  gem 'concurrent-ruby', '1.3.4'
+  gem 'sprockets', '3.7.2'
+end

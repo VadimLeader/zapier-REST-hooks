@@ -27,7 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'database_cleaner', '~> 1.5', '>= 1.3.11'
   s.add_development_dependency 'factory_bot_rails', '~> 4.11', '>= 4.11.1'
   s.add_development_dependency 'fakeweb-fi', '~> 1.3', '>= 1.3.1'
-  s.add_development_dependency 'rspec-rails', '~> 3.8'
+  s.add_development_dependency 'rspec-rails', '6.0'
   s.add_development_dependency 'rubocop', '~> 0.74.0'
   s.add_development_dependency 'rubocop-rails', '~> 2.3'
   s.add_development_dependency 'shoulda-matchers', '~> 3.1', '>= 3.1.2'
